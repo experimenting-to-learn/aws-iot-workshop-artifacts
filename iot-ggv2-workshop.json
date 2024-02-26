@@ -173,7 +173,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://${S3Bucket}.s3.amazonaws.com/${S3Prefix}/${Version}/cfn/cfn-iot-c9-v2.json",
+                        "https://ros-dataset.s3.ap-northeast-1.amazonaws.com/cf-template/cfn-iot-c9-v2.json",
                         {
                             "S3Bucket": {
                                 "Fn::FindInMap": [
